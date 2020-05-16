@@ -5,8 +5,7 @@
  "default_title": "+Roam"
  },
  "name": "+Roam",
- "description": "Save snippets to Roam Research - A tool by Ness Labs",
- "homepage_url": "https://nesslabs.com/roam-research-bookmarklet",
+ "description": "Save snippets to Roam Research",
  "icons": {
      "16": "icon-16.png",
      "48": "icon-48.png",
