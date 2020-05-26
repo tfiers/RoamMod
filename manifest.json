@@ -7,5 +7,9 @@
    "background": {
       "scripts": ["background.js"]
    },
-   "browser_action": {}
+   "browser_action": {},
+   "content_scripts": [{
+      "matches": ["https://roamresearch.com/*"],
+      "js": ["underscore-min.js", "annotation_styler.js"]
+    }]
 }
