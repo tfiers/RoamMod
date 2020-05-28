@@ -1,7 +1,7 @@
 (function () {
     let sel = document.getSelection();
     let selText = "";
-    const reference = `[${document.title}](${location.href}) #WebSnippet`;
+    const reference = `[${document.title}](${location.href})` // #WebSnippet`;
     const selectedRanges = [];
 
     if (sel.rangeCount > 1) {
