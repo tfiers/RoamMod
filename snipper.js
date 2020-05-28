@@ -8,10 +8,10 @@
         selText = reference + "\n";
         //more than one thing selected
         for (let i = 0; i < sel.rangeCount; i++) {
-            selText += `\t__${sel
+            selText += `\t"${sel
                 .getRangeAt(i)
                 .toString()
-                .trim()}__ \n`;
+                .trim()}" \n`;
             selectedRanges.push(sel.getRangeAt(i));
         }
     } else {
@@ -20,7 +20,7 @@
         //0 or 1 thing selected
         if (selText.length) {
             selectedRanges.push(sel.getRangeAt(0));
-            selText = `__${selText}__ via `;
+            selText = `"${selText}" via `;
         }
         selText += reference;
     }
