@@ -20,7 +20,7 @@
         //0 or 1 thing selected
         if (selText.length) {
             selectedRanges.push(sel.getRangeAt(0));
-            selText = `"${selText}" via `;
+            selText = `"${selText}" – `;
         }
         selText += reference;
     }
