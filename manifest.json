@@ -10,6 +10,6 @@
    "browser_action": {},
    "content_scripts": [{
       "matches": ["https://roamresearch.com/*"],
-      "js": ["underscore-min.js", "annotation_styler.js"]
+      "js": ["underscore-min.js", "roam_mod.js"]
     }]
 }

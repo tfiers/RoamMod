@@ -1,8 +1,8 @@
-const DOMMutationListener = _.throttle(hackRoam, 200)
+const DOMMutationListener = _.throttle(modRoam, 200)
 const observer = new MutationObserver(DOMMutationListener)
 observer.observe(document, { childList: true, subtree: true })
 
-function hackRoam() {
+function modRoam() {
     applyAnnotationStyle()
     showTiming()
 }
