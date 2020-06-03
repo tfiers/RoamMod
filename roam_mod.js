@@ -30,9 +30,9 @@ function showTiming() {
             return d.toLocaleTimeString(navigator.language, 
                 {hour:"2-digit", minute:"2-digit"})
         }
-        // Add small text
         const createTime = timestampToTime("data-create-time")
         const editTime = timestampToTime("data-edit-time")
+        // Add small text
         div.innerText = `${createTime}\n${editTime}`
         div.style.fontSize = "0.5em"
     })
